@@ -1,0 +1,76 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="27.879566999999994">
+<testsuite name="academic\cart.spec.js" timestamp="2026-03-09T15:03:29.944Z" hostname="chromium" tests="3" failures="1" skipped="0" time="42.492" errors="0">
+<testcase name="Flow 3: Shopping Cart Management › TC-007: User can add a product to the shopping cart" classname="academic\cart.spec.js" time="11.576">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-000fb-roduct-to-the-shopping-cart-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Flow 3: Shopping Cart Management › TC-008: User can remove a product from the cart" classname="academic\cart.spec.js" time="19.109">
+<failure message="cart.spec.js:43:7 TC-008: User can remove a product from the cart" type="FAILURE">
+<![CDATA[  [chromium] › academic\cart.spec.js:43:7 › Flow 3: Shopping Cart Management › TC-008: User can remove a product from the cart 
+
+    Error: expect(locator).not.toHaveText(expected) failed
+
+    Locator:  locator('#cartCount')
+    Expected: not "0"
+    Received: "0"
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "not toHaveText" with timeout 10000ms
+      - waiting for locator('#cartCount')
+        13 × locator resolved to <span id="cartCount" class="badge bg-dark rounded-pill">0</span>
+           - unexpected value "0"
+
+
+      53 |     }
+      54 |
+    > 55 |     await expect(page.locator('#cartCount')).not.toHaveText('0');
+         |                                                  ^
+      56 |
+      57 |     const removeButton = page.locator('#cartItems button.btn-outline-danger').first();
+      58 |     if (await removeButton.count()) {
+        at C:\xampp\htdocs\hamburguesa\tests\academic\cart.spec.js:55:50
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\video.webm]]
+
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\error-context.md]]
+
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-65f91-ove-a-product-from-the-cart-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Flow 3: Shopping Cart Management › TC-009: Shopping cart maintains stable UI after page refresh" classname="academic\cart.spec.js" time="11.807">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|academic-cart-Flow-3-Shopp-75603-table-UI-after-page-refresh-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

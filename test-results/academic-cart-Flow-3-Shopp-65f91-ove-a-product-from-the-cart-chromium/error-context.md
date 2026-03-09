@@ -1,0 +1,197 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link " BurgerSystem" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e5]: 
+        - text: BurgerSystem
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Cart User 1773068619845
+          - text: Cliente
+        - button " Cliente" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: 
+          - text: Cliente
+        - text: 
+        - button " Salir" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 
+          - text: Salir
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - generic [ref=e22]: 
+          - textbox "Buscar hamburguesa, bebida..." [ref=e23]
+        - generic [ref=e24]:
+          - generic [ref=e25] [cursor=pointer]: Todas
+          - generic [ref=e26] [cursor=pointer]: bebida
+          - generic [ref=e27] [cursor=pointer]: hamburguesa
+          - generic [ref=e28] [cursor=pointer]: complemento
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 🍔
+          - heading "Agua Natural" [level=5] [ref=e34]
+          - paragraph [ref=e35]: Botella 500ml
+          - heading "$15.00" [level=4] [ref=e36]
+          - generic [ref=e37]:
+            - button "-" [ref=e38] [cursor=pointer]
+            - spinbutton [ref=e39]: "1"
+            - button "+" [ref=e40] [cursor=pointer]
+          - generic [ref=e41]:
+            - button " Añadir" [disabled]:
+              - generic: 
+              - text: Añadir
+          - generic [ref=e42]:
+            - text: "Stock:"
+            - strong [ref=e43]: "0"
+            - generic [ref=e44]: Agotado
+        - generic [ref=e47]:
+          - generic [ref=e48]: 🍔
+          - heading "Hamburguesa Clásica" [level=5] [ref=e49]
+          - paragraph [ref=e50]: Carne, lechuga, tomate, cebolla, pepinillos
+          - heading "$88.00" [level=4] [ref=e51]
+          - generic [ref=e52]:
+            - button "-" [ref=e53] [cursor=pointer]
+            - spinbutton [ref=e54]: "1"
+            - button "+" [ref=e55] [cursor=pointer]
+          - button " Añadir" [active] [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: 
+            - text: Añadir
+          - generic [ref=e59]:
+            - text: "Stock:"
+            - strong [ref=e60]: "110"
+            - generic [ref=e61]: OK
+        - generic [ref=e64]:
+          - generic [ref=e65]: 🍔
+          - heading "Hamburguesa Doble Carne" [level=5] [ref=e66]
+          - paragraph [ref=e67]: Doble carne, queso, tocino
+          - heading "$300.00" [level=4] [ref=e68]
+          - generic [ref=e69]:
+            - button "-" [ref=e70] [cursor=pointer]
+            - spinbutton [ref=e71]: "1"
+            - button "+" [ref=e72] [cursor=pointer]
+          - button " Añadir" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: 
+            - text: Añadir
+          - generic [ref=e76]:
+            - text: "Stock:"
+            - strong [ref=e77]: "5"
+            - generic [ref=e78]: OK
+        - generic [ref=e81]:
+          - generic [ref=e82]: 🍔
+          - heading "Hamburguesa Premium" [level=5] [ref=e83]
+          - paragraph [ref=e84]: Carne premium, queso suizo, champiñones
+          - heading "$145.00" [level=4] [ref=e85]
+          - generic [ref=e86]:
+            - button "-" [ref=e87] [cursor=pointer]
+            - spinbutton [ref=e88]: "1"
+            - button "+" [ref=e89] [cursor=pointer]
+          - button " Añadir" [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: 
+            - text: Añadir
+          - generic [ref=e93]:
+            - text: "Stock:"
+            - strong [ref=e94]: "50"
+            - generic [ref=e95]: OK
+        - generic [ref=e98]:
+          - generic [ref=e99]: 🍔
+          - heading "Papas Fritas" [level=5] [ref=e100]
+          - paragraph [ref=e101]: Porción de papas fritas
+          - heading "$35.00" [level=4] [ref=e102]
+          - generic [ref=e103]:
+            - button "-" [ref=e104] [cursor=pointer]
+            - spinbutton [ref=e105]: "1"
+            - button "+" [ref=e106] [cursor=pointer]
+          - button " Añadir" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: 
+            - text: Añadir
+          - generic [ref=e110]:
+            - text: "Stock:"
+            - strong [ref=e111]: "49"
+            - generic [ref=e112]: OK
+        - generic [ref=e115]:
+          - generic [ref=e116]: 🍔
+          - heading "Refresco 600ml" [level=5] [ref=e117]
+          - paragraph [ref=e118]: Bebida de cola
+          - heading "$25.00" [level=4] [ref=e119]
+          - generic [ref=e120]:
+            - button "-" [ref=e121] [cursor=pointer]
+            - spinbutton [ref=e122]: "1"
+            - button "+" [ref=e123] [cursor=pointer]
+          - button " Añadir" [ref=e125] [cursor=pointer]:
+            - generic [ref=e126]: 
+            - text: Añadir
+          - generic [ref=e127]:
+            - text: "Stock:"
+            - strong [ref=e128]: "49"
+            - generic [ref=e129]: OK
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - heading " Orden Actual" [level=5] [ref=e134]:
+          - generic [ref=e135]: 
+          - text: Orden Actual
+        - generic [ref=e136]: "0"
+      - generic [ref=e137]:
+        - generic [ref=e139]: El carrito está vacío
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - radio " Aquí" [checked]
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]: 
+              - text: Aquí
+            - radio " Llevar"
+            - generic [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: 
+              - text: Llevar
+          - combobox [ref=e146]:
+            - option "💵 Efectivo" [selected]
+            - option "💳 Tarjeta Débito/Crédito"
+            - option "📱 Transferencia"
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]: "Subtotal:"
+            - generic [ref=e150]: $0.00
+          - generic [ref=e151]:
+            - generic [ref=e152]: "Impuesto (16%):"
+            - generic [ref=e153]: $0.00
+          - generic [ref=e154]:
+            - generic [ref=e155]: "Total:"
+            - generic [ref=e156]: $0.00
+          - generic [ref=e157]:
+            - button " Cobrar" [disabled]:
+              - generic: 
+              - text: Cobrar
+            - button " Cancelar Orden" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: 
+              - text: Cancelar Orden
+  - text:     + 
+  - generic [ref=e161]:
+    - 'heading "Personalizar: Hamburguesa Clásica" [level=4] [ref=e162]'
+    - paragraph [ref=e163]: "Precio base: $88.00"
+    - heading "Extras disponibles:" [level=6] [ref=e164]
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]: Aguacate (+$18.00)
+        - checkbox "Aguacate (+$18.00)" [ref=e168]
+      - generic [ref=e169]:
+        - generic [ref=e170]: Cebolla Caramelizada (+$10.00)
+        - checkbox "Cebolla Caramelizada (+$10.00)" [ref=e171]
+      - generic [ref=e172]:
+        - generic [ref=e173]: Champiñones (+$12.00)
+        - checkbox "Champiñones (+$12.00)" [ref=e174]
+      - generic [ref=e175]:
+        - generic [ref=e176]: Jalapeños (+$8.00)
+        - checkbox "Jalapeños (+$8.00)" [ref=e177]
+      - generic [ref=e178]:
+        - generic [ref=e179]: Queso Extra (+$15.00)
+        - checkbox "Queso Extra (+$15.00)" [ref=e180]
+      - generic [ref=e181]:
+        - generic [ref=e182]: Tocino (+$20.00)
+        - checkbox "Tocino (+$20.00)" [ref=e183]
+    - generic [ref=e184]:
+      - button "Cancelar" [ref=e185] [cursor=pointer]
+      - button "Agregar" [ref=e186] [cursor=pointer]
+```
